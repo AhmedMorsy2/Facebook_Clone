@@ -14,7 +14,7 @@ const postsModel = sequelize.define(
     author: {
       type: DataTypes.INTEGER,
       references: {
-        model: usersModell,
+        model: usersModel,
         key: "id",
       },
     },
